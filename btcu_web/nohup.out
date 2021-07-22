@@ -1,0 +1,116 @@
+
+> pro-mern-stack@1.0.0 start /root/BTCU-WEB/btcu_web
+> nodemon -w server server/server.js
+
+[33m[nodemon] 1.18.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: /root/BTCU-WEB/btcu_web/server/**/*[39m
+[32m[nodemon] starting `node server/server.js`[39m
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:173:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:561:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! pro-mern-stack@1.0.0 start: `nodemon -w server server/server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the pro-mern-stack@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-07-22T05_54_18_811Z-debug.log
+(node:28610) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28610) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:28610) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:28610) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+(node:28610) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/root/BTCU-WEB/btcu_web/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/BTCU-WEB/btcu_web/server/server.js:35:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+(node:28901) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28901) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:28901) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:28901) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+(node:28901) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/root/BTCU-WEB/btcu_web/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/BTCU-WEB/btcu_web/server/server.js:35:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+(node:28939) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28939) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:28939) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:28939) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+(node:28939) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+App start on port 3000
+Connected to database mongodb://localhost:27017/btcuDB
+(node:29094) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29094) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:29094) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:29094) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+(node:29094) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+App start on port 3000
+Connected to database mongodb://localhost:27017/btcuDB
+(node:29442) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29442) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:29442) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:29442) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+(node:29442) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+App start on port 3000
+Connected to database mongodb://localhost:27017/btcuDB

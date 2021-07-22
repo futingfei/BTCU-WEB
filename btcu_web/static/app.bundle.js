@@ -302,9 +302,6 @@ var styles = function styles(theme) {
     },
     Divider: {
       color: '#272b47'
-    },
-    a: {
-      textDecoration: 0
     }
   };
 };
@@ -390,7 +387,7 @@ function ContentPage(props) {
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
               'h4',
               { className: classes.ziti },
-              '\u4EBA\u624D\u57F9\u517B\u4E0E\u5206\u7EA7\u8003\u6838\u65B9\u6848'
+              '\u4EBA\u624D\u57F9\u517B\u4E0E\u5206\u7EA7\u8003\u6838\u65B9\u6848 \uD83D\uDC49'
             )
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
@@ -415,7 +412,7 @@ function ContentPage(props) {
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
               'h4',
               { className: classes.uequ },
-              '\u793E\u533A\u6210\u5458\u4E0E\u51FA\u5165\u673A\u5236'
+              '\u793E\u533A\u6210\u5458\u4E0E\u51FA\u5165\u673A\u5236 \uD83D\uDC49'
             )
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
@@ -439,7 +436,7 @@ function ContentPage(props) {
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
               'h4',
               { className: classes.ziti },
-              '\u901A\u8BC1\u6FC0\u52B1\u6A21\u578B'
+              '\u901A\u8BC1\u6FC0\u52B1\u6A21\u578B \uD83D\uDC49'
             )
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
@@ -462,7 +459,7 @@ function ContentPage(props) {
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a,
             { item: true, xs: 6 },
-            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', { src: 'https://i.loli.net/2018/08/28/5b8532ffdd470.png', alt: 'undraw_data_report_bi6l.png', width: 450, align: 'left' })
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', { src: 'https://i.loli.net/2018/08/28/5b8532ffdd470.png', alt: 'undraw_data_report_bi6l.png', title: 'undraw_data_report_bi6l.png', width: 450, align: 'left' })
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a,
@@ -484,7 +481,7 @@ function ContentPage(props) {
               react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('br', null),
               react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                 _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2___default.a,
-                { variant: 'contained', size: 'large', color: 'primary', href: 'https://github.com/FUTingFei/gitTest/blob/master/%E9%AB%98%E6%A0%A1%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf' },
+                { variant: 'contained', size: 'large', color: 'primary' },
                 '\u53D1\u5C55\u8DEF\u7EBF\u56FE'
               )
             )
@@ -540,17 +537,17 @@ function ContentPage(props) {
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             'h5',
             null,
-            '\u4E2D\u8D22\u201C\u7E41\u661F\u201D\u533A\u5757\u94FE\u7814\u7A76\u534F\u4F1A       \xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\u516C\u4F17\u53F7\u5FAE\u4FE1\u53F7\uFF1ACUFEblockchain'
+            '\u4E2D\u8D22\u201C\u7E41\u661F\u201D\u533A\u5757\u94FE\u7814\u7A76\u534F\u4F1A       \xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0   \u5FAE\u4FE1\u516C\u4F17\u53F7\uFF1A\u4E2D\u8D22\u7E41\u661F'
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             'h5',
             null,
-            '\u6D59\u6C5F\u5927\u5B66\u533A\u5757\u94FE\u534F\u4F1A(ZJUBCA)   \xA0\xA0\xA0\xA0\xA0\xA0\xA0\u516C\u4F17\u53F7\u5FAE\u4FE1\u53F7\uFF1AZJUBCA'
+            '\u6D59\u6C5F\u5927\u5B66\u533A\u5757\u94FE\u534F\u4F1A\uFF08ZJUBCA\uFF09   \xA0\xA0  \u516C\u4F17\u53F7\u5FAE\u4FE1\u53F7\uFF1AZJUBCA'
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             'h5',
             null,
-            '\u6D59\u6C5F\u5927\u5B66\u533A\u5757\u94FE\u4FF1\u4E50\u90E8(BitHacks) \xA0\xA0\xA0\u516C\u4F17\u53F7\u5FAE\u4FE1\u53F7\uFF1ABItHacks'
+            '\u6D59\u6C5F\u5927\u5B66\u533A\u5757\u94FE\u4FF1\u4E50\u90E8\uFF08BitHacks\uFF09 \u516C\u4F17\u53F7\u5FAE\u4FE1\u53F7\uFF1ABItHacks'
           )
         )
       )
@@ -564,7 +561,7 @@ function ContentPage(props) {
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
           _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a,
           { item: true, xs: 5 },
-          '\xA9\uFE0F BTCU. ALL RIGHTS RESERVED'
+          '\xA9\uFE0F BTCU. ALL RIGHTS RESERVE'
         ),
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
           _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a,
@@ -771,15 +768,18 @@ var MainPage = function (_React$Component) {
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3___default.a,
-            { className: classes.navbutton, href: 'https://github.com/FUTingFei/gitTest/blob/master/%E9%AB%98%E6%A0%A1%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf' },
-            '\u5B66\u4E60'
+            { className: classes.navbutton, onClick: function onClick() {
+                return window.open("https://talk.btcu.tech");
+              } },
+            '\u8BBA\u575B'
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3___default.a,
-            { className: classes.navbutton, href: 'https://github.com/FUTingFei/gitTest/blob/master/%E9%AB%98%E6%A0%A1%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf' },
-            '\u767D\u76AE\u4E66'
-          ),
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginAndWalletButton_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], null)
+            { className: classes.navbutton, onClick: function onClick() {
+                return window.open("https://github.com/btcu-pro");
+              } },
+            'Github'
+          )
         )
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(

@@ -3,15 +3,10 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Grid from '@material-ui/core/Grid';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import Register from './RegisterButton.jsx';
-import WalletButton from './WalletButton.jsx';
-import LoginAndWallet from './LoginAndWalletButton.jsx' 
 import ContentPage from './ContentPage.jsx'
-import LoginButton from './LoginButton.jsx'
 
 
 const styles = theme => ({
@@ -125,12 +120,12 @@ class MainPage extends React.Component {
                 ///
           </Typography>
           {/* <Button className={classes.navbutton}>社区介绍</Button> */}
-          <Button className={classes.navbutton}>学习</Button>
-          <Button className={classes.navbutton}>白皮书</Button>
+          <Button className={classes.navbutton} onClick={() => window.open("https://talk.btcu.tech") }>论坛</Button>
+          <Button className={classes.navbutton} onClick={() => window.open("https://github.com/btcu-pro") }>Github</Button>
           {/* <Login></Login> */}
 
           {/* 功能区 */}
-          <LoginAndWallet></LoginAndWallet>
+          {/* <LoginAndWallet></LoginAndWallet> */}
           {/* 功能区 */}
 
         </Toolbar>
